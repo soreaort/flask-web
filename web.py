@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Looks like it is not updating automatically :("
+    return "It works as i expected :D"
 
 if __name__ == "__main__":
     #app.run(debug=True)
